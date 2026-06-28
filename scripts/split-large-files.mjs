@@ -33,3 +33,4 @@ const split = (filename) => {
 // split("mt-embargoed-areas-clipped.json");
 // split("mt-public-forests-clipped.json");
 // split("mt-vegetation-suppression-authorization-clipped.json");
+// split("mt-car-properties-clipped.json");
