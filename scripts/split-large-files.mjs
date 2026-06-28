@@ -26,9 +26,10 @@ const split = (filename) => {
   }
 
   console.log(`  🗑️  Removendo original...`);
-  fs.unlinkSync(path.join(dataDir, filename));
-  console.log(`  ✅ ${filename} removido\n`);
+  // fs.unlinkSync(path.join(dataDir, filename));
+  // console.log(`  ✅ ${filename} removido\n`);
 };
 
-split("mt-embargoed-areas-clipped.json");
-split("mt-public-forests-clipped.json");
+// split("mt-embargoed-areas-clipped.json");
+// split("mt-public-forests-clipped.json");
+// split("mt-vegetation-suppression-authorization-clipped.json");
